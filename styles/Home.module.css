@@ -43,16 +43,12 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
 
 .title,
 .description {
   text-align: center;
-}
-
-.description {
-  font-size: 1.5rem;
 }
 
 .code {
@@ -114,22 +110,48 @@
   }
 }
 
-.mainnav ul{
+.mainnav ul {
   display: flex;
   justify-content: center;
-    margin-top: 50px;
+  margin-top: 50px;
 }
- 
-.mainnav ul li{
-  margin: 0 24px;
-    list-style: none;
-    font-weight: bold;
-} 
 
-.myImg{
+.mainnav ul li {
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.myImg {
   border-radius: 15px 40px;
 }
- 
-.imagewrap{
+
+.imagewrap {
   padding: 35px 0px 0px 0px;
+}
+
+.h2 {
+  font-size: 2.5rem;
+}
+
+.h3 {
+  font-size: 1.75rem;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+.btn {
+  color: white;
+  background: black;
+  padding: 7px 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-bottom: 9px;
+}
+
+.p {
+  margin: 16px 0;
+  margin-top: 3px;
 }
