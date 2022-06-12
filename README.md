@@ -5,8 +5,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm install --global yarn #installs  yarn globally in your PC 
-# or
+#install yarn globally in your PC 
+npm install --global yarn 
+#install dependencies from package.json file 
+npm install
+#run dev server
 yarn dev
 ```
 
